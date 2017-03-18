@@ -1,0 +1,48 @@
+{
+  "name": "local-weather-web",
+  "version": "0.0.1",
+  "description": "Local Weather Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "rimraf dist && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/petermbenjamin/local-weather-web.git"
+  },
+  "keywords": [
+    "local-weather",
+    "weather",
+    "freecodecamp",
+    "fcc",
+    "challenge"
+  ],
+  "author": "Peter Benjamin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermbenjamin/local-weather-web/issues"
+  },
+  "homepage": "https://github.com/petermbenjamin/local-weather-web#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "material-ui": "^0.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
